@@ -1,0 +1,190 @@
+.header, .content-main {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: aqua;*/
+}
+
+.header {
+    margin-top: 15px;
+}
+
+.header .block {
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #F6F6F8;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #666;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li + li:before{
+    content: "/";
+    padding-right: 5px;
+}
+
+.moto {
+    text-align: center;
+    margin-top: 10px;
+    color:#999;
+    font-style: italic;
+    font-size: 18px;
+}
+
+section {
+    display:inline;
+}
+
+.content {
+    display:block;
+}
+
+.content-main {
+    margin: auto;
+    margin-top:5em;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #0091DA;
+    color:white;
+    font-size: 18px
+}
+
+
+
+.article-footer {
+    border-bottom: 1px dotted #999;
+}
+
+.article-icon {
+    position: absolute;
+    margin-left: calc(0px - 60px - 1rem);
+    width:60px;
+}
+
+h1 {
+    font-size: 43px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.article-info {
+    color:#999;
+    font-style: italic;
+}
+
+.article-info a{
+    color: #999;
+}
+
+.article-body {
+    margin-top: 20px;
+}
+
+.article-body p {
+    margin-top:20px;
+}
+
+.article-body .quote {
+    border-left: 5px solid #0091DA;
+    font-style: italic;
+    margin-left: -10px;
+    padding-left: 15px;
+}
+
+.comment {
+    display:inline-block;
+}
+
+.tweeter {
+    display:inline-block;
+    float:right;
+}
+
+.right {
+    float:right;
+    margin-top: -13px
+}
+
+.article-info {
+    margin-top:10px
+}
+
+.comment a {
+    color: #999;
+}
+
+.hire-us {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.hire-us a {
+    color: #0091DA;
+}
+
+.photo {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.author-info {
+    display:inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+.author-title {
+    color:#0091DA;
+}
+
+.author-bio {
+    line-height: 30px
+}
+
+.author-plus {
+    color: #999;
+}
+
+.author-plus a {
+    color:#999;
+}
+
+.article {
+    margin-bottom: 80px
+}
+
+.read-more {
+    color:#0091DA;
+    text-align: center;
+    
+    padding-bottom: 80px
+}
+
+html {
+    color:#333;
+    font-size: 20px;
+}
+
+.article-author {
+    margin-top: 15px;
+}
